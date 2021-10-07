@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+    <h1 class="heading"><strong><span>Project List</span></strong></h1>    
+
+    <div class="addInfo">
+        <div class="inputGroup">
+            <input type="text" id="name" placeholder="Project Name">
+            <br>
+            <br>
+            <!-- <input type="text" id="description" placeholder="Description"> -->
+            <textarea name="description" id="description" placeholder="Description"></textarea>
+            <br>
+            <br>
+            <input type="number" id="time" placeholder="Time (in hours)">
+            <br>
+            <br>
+            <br>
+            <div class="wrapper">
+                <button class="btnAdd" onclick="addPr()"><strong>Add</strong></button>
+            </div>
+            <br>
+          <a href="./data.html">
+            <div class="wrapper">
+              <button class="btnStorage" onclick="()"><strong>Project Library</strong></button>
+          </div>
+          </a>
+        </div>
+    </div>
+    
+
+    <div id="projects">
+
+    </div>
+
+    <!-- <div class="card" style="width: 18rem;">
+        <div class="card-header">
+          <h2>Project</h2>
+        </div>
+        <ul id="list" class="list-group list-group-flush">
+          <li class="list-group-item"></li>
+          <li class="list-group-item"></li>
+        </ul>
+      </div> -->
+
+    <script src="./script.js"></script>
+</body>
+</html>

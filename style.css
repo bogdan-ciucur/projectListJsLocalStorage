@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #2a363b; */
+    background: rgb(38,66,89);
+    background: linear-gradient(90deg, rgba(38,66,89,1) 0%, rgba(67,151,141,1) 100%);
+}
+
+
+.heading {
+    text-align: center;
+    margin-top: 1%;
+    color: #f4f4f4;
+    margin-bottom: 3rem;
+    text-shadow: 8px 8px 10px #2a363b;
+    font-size: 3.5rem;
+}
+
+
+.heading:hover span {
+    display: none;
+}
+
+.heading:hover:before {
+    content:"Easter Egg";
+}
+
+
+.inputGroup > input, textarea {
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 3rem;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 1rem;
+    font-size: 2rem;
+    color: #30606b;
+    box-shadow:4px 4px 10px #2a363b;
+    transition: all .3s ease-in-out;
+}
+
+.inputGroup > input:hover {
+    transform: scale(1.04); 
+}
+
+
+
+.inputGroup >textarea:hover {
+    transform: scale(1.04); 
+}
+
+
+
+.inputGroup > input::placeholder {
+    text-align: center;
+    color: #2a363b;
+    font-size: 1.5rem;
+    opacity: 0.5;
+}
+
+.inputGroup > textarea::placeholder {
+    text-align: center;
+    color: #2a363b;
+    font-size: 1.5rem;
+    opacity: 0.5;
+}
+
+
+.wrapper {
+    text-align: center;
+}
+
+.btnAdd {
+    height: 3rem;
+    width: 10rem;
+    border-radius: 5rem;
+    border: none;
+    box-shadow:4px 4px 10px #2a363b;
+    font-size: 1.5rem;
+    color: #808080;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.btnAdd:hover {
+    background-color: #30606b;
+    color: white;
+    transform: scale(1.1); 
+}
+
+
+#projects  {
+    margin: 1rem;
+    display: flex;
+    border: none;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    box-shadow:4px 4px 10px #2a363b;
+    padding: 1rem;
+    margin: 1rem;
+    transition: all .3s ease-in-out;
+    border-radius: 1rem;
+}
+
+.card:hover {
+    transform: scale(1.04); 
+}
+
+
+.card-header {
+    background-color: #30606b;
+    color: #f4f4f4;
+    text-align: center;
+    
+}
+
+
+
+.btnStorage {
+    height: 2.1rem;
+    width: 8rem;
+    border-radius: 5rem;
+    border: none;
+    box-shadow:4px 4px 10px #2a363b;
+    font-size: 1rem;
+    color: #808080;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.btnStorage:hover {
+    background-color: #30606b;
+    color: white;
+    transform: scale(1.1); 
+}
+
+
+
+
+
+
